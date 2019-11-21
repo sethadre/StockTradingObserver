@@ -1,10 +1,8 @@
-/**
- * Subject.java
- *
- * Objects implementing this interface allow observers
- * to register with it. When this object changes state,
- * it notifies all registered observers.
- */
+/*  William Murray, Adrian Seth
+    November 22nd, 2019
+    Purpose: Program is designed to emulate the Observer design with a StockMarket
+    Traders are registered as Observers to Stock Subjects and any trades made are notifyied to each observer
+*/
 public interface Subject {
 
     /* allows an observer to register with the subject */
