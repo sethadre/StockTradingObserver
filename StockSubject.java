@@ -33,8 +33,7 @@ public class StockSubject implements Subject{
      */
     @Override
     public void removeObserver(Observer o) {
-        // TODO Auto-generated method stub
-        
+        observers.remove(o);
     }
 
     /**
